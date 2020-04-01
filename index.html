@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Table Website</title>
+    <style media="screen">
+      .container {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px 0 0 1px;
+    display: inline-block;
+}
+.column {
+    float: left; overflow: hidden;
+}
+.cell {
+    border: 1px solid red; width: 120px; height: 20px;
+    margin:-1px 0 0 -1px;
+}
+.clearfix {
+    clear:both;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    <div class="column">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+    <div class="column">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+    <div class="column">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+    ...
+</div>
+  </body>
+</html>
