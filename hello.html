@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My webpage</title>
+    <title>CSS webPage</title>
+    <style media="screen">
+      h1 {
+        color: #0066db;
+        text-align: center;
+      }
+      #table {
+        display: table;
+        border-collapse: collapse;
+        width: 50%;
+        margin-left: 25%;
+      }
+
+      .table-row {
+        display: table-row;
+      }
+      .table-item {
+        display: table-cell;
+        border: 3px solid black;
+        width: 33.3%;
+        text-align: center;
+        font-size: 20px;
+        font-family: arial, sans-serif;
+      }
+    </style>
   </head>
   <body>
-    Hello World! Hello World 2)
-    NewComment and NewFile
-    Adding a new Test string
+    <h1 class="main-header">Bank Details</h1>
+    <div id="table">
+      <div class="table-row">
+        <div class="table-item">
+          <p>Name</p>
+        </div>
+        <div class="table-item">
+          <p>Credit Card Details</p>
+        </div>
+        <div class="table-item">
+          <p>Expiry Date</p>
+        </div>
+      </div>
+      <div class="table-row">
+        <div class="table-item">
+          <p>David Adams</p>
+        </div>
+        <div class="table-item">
+          <p>4305863095771385</p>
+        </div>
+        <div class="table-item">
+          <p>10/30</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
